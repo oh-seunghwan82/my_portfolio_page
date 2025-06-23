@@ -184,7 +184,23 @@ $(document).ready(function () {
                 });
              }
         }); 
+
+
     });
+
+    AOS.init({
+        offset: 60,
+        duration: 1000,
+        once: true
+    });
+
+    $(window).on('load', function(){
+        AOS.refresh();
+    });
+
+    $('#artwork').waitForImages(function(){
+        AOS.refresh();
+    })
     
 
 });
