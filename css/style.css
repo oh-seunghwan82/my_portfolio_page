@@ -402,6 +402,7 @@ a.active {
     font-size: 23px;
     font-weight: 700;
     padding-bottom: 20px;
+    line-height: 28px;
 }
 
 .yellowtype {
@@ -412,22 +413,10 @@ a.active {
     justify-content: space-between;
 }
 
-.CONTACT_me>li{
-    display: flex;
-    gap: 40px;
-    padding-bottom: 20px;
-}
-
-.CONTACT_me>li>p{
-    align-content: center;
-    font-size: 18px;
-    font-family: 'SBAggroB';
-}
-
 .about-me-information{
     line-height: 28px;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 400;
     margin-bottom: 40px;
 }
 
@@ -1148,7 +1137,7 @@ a.active {
     /* 둥근 모서리 밖 영역은 가려줌 */
     border-radius: 40px;
     /* 상자에도 둥근 테두리 주기 */
-    width: 400px;
+    width: 525px;
     display: block;
     margin-right: 15px;
 }
